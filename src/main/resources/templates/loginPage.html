@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LoginApp</title>
+</head>
+<body>
+<form method="post">
+    <input type="text" placeholder="Login" name="login" th:field="*{userkey.login}">
+    <input type="text" placeholder="Password" name="password" th:field="*{userkey.pass}">
+    <input type="submit" value="OK">
+</form>
+</body>
+</html>
